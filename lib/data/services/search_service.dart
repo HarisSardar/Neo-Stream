@@ -5,7 +5,7 @@ import '../models/series.dart';
 
 /// Service de recherche unifié pour l'API Zenix.sg
 class SearchService {
-  static const String baseUrl = 'http://node.zenix.sg:25825';
+  static const String baseUrl = 'http://fr1.spaceify.eu:26160';
 
   final Dio _dio;
 

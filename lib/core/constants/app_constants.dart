@@ -5,7 +5,7 @@ class AppConstants {
   static const String appName = 'NeoStream';
   
   // API Configuration - IP directe pour éviter les problèmes DNS
-  static const String baseUrl = 'http://node.zenix.sg:25825';
+  static const String baseUrl = 'http://fr1.spaceify.eu:26160';
   static const String moviesEndpoint = '/movies';
   static const String searchEndpoint = '/search';
   static const String genresEndpoint = '/genres';

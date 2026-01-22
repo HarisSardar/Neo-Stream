@@ -100,7 +100,7 @@ class AppSettings {
 
     // Paramètres avancés
     this.enableDebugMode = false,
-    this.apiEndpoint = 'http://node.zenix.sg:25825',
+    this.apiEndpoint = 'http://fr1.spaceify.eu:26160',
     this.requestTimeout = 30,
   });
 
@@ -137,7 +137,7 @@ class AppSettings {
 
       // Paramètres avancés
       enableDebugMode: json['enable_debug_mode'] ?? false,
-      apiEndpoint: json['api_endpoint'] ?? 'http://node.zenix.sg:25825',
+      apiEndpoint: json['api_endpoint'] ?? 'http://fr1.spaceify.eu:26160',
       requestTimeout: json['request_timeout'] ?? 30,
     );
   }

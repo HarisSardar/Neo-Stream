@@ -60,7 +60,7 @@ class SeriesLoadingProgress {
 
 /// Service pour récupérer les séries compactes selon l'API Zenix.sg
 class SeriesCompactService {
-  static const String baseUrl = 'http://node.zenix.sg:25825';
+  static const String baseUrl = 'http://fr1.spaceify.eu:26160';
 
   final Dio _dio;
   final Map<String, Map<String, dynamic>> _enrichmentCache = {};

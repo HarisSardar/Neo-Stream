@@ -5,7 +5,7 @@ import '../models/api_responses.dart';
 
 /// Service API pour Zenix.sg - Conforme à l'API réelle v2.1.0
 class ZenixApiService {
-  static const String baseUrl = 'http://node.zenix.sg:25825';
+  static const String baseUrl = 'http://fr1.spaceify.eu:26160';
 
   final Dio _dio;
 

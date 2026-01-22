@@ -7,7 +7,7 @@ class AppConfig {
   static const String appDescription = 'Application de streaming cyberpunk';
 
   // API Configuration
-  static const String apiBaseUrl = 'http://node.zenix.sg:25825';
+  static const String apiBaseUrl = 'http://fr1.spaceify.eu:26160';
   static const int apiTimeoutMs = 15000;
   static const int apiRetryCount = 3;
 
